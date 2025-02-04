@@ -1,0 +1,143 @@
+/* Reset gaya bawaan */
+body, h2, a, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Latar belakang */
+body {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+/* Container utama */
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Teks "DANA" */
+.brand-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Bagian konten */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+.content h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Pesan "Kode OTP terkirim ke WhatsApp / SMS" */
+.otp-sent-message {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Kotak input OTP */
+.otp-container {
+    margin-top: 15px;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.otp-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Tombol kirim ulang OTP */
+.pin-bottom-text {
+    margin-top: 15px;
+}
+
+.resend-code {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.resend-code:hover {
+    text-decoration: underline;
+}
+
+/* Pesan Mengambang di Tengah Halaman */
+.floating-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007bff; /* Mengubah warna latar belakang menjadi #007bff */
+    color: white;
+    padding: 20px 40px; /* Memperlebar padding kiri dan kanan */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px; /* Ukuran font lebih besar */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Menambah shadow agar lebih jelas */
+    z-index: 1000;
+    width: 90%; /* Membuat lebar menyesuaikan dengan konten, hingga 90% dari layar */
+    max-width: 600px; /* Membatasi lebar maksimum agar tidak terlalu besar */
+    word-wrap: break-word; /* Memastikan teks panjang terpotong dengan baik */
+    white-space: normal; /* Agar teks tetap terpecah jika terlalu panjang */
+}
+
+/* Menambahkan margin pada teks promo */
+.pin-bottom-text {
+    margin-top: 15px;
+}
+
+.pin-bottom-text a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pin-bottom-text a:hover {
+    text-decoration: underline;
+}
+
+/* Kotak untuk teks promo */
+.promo-box {
+    display: block;
+    background-color: #f0f8ff; /* Warna latar belakang kotak */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    border: 2px solid #007bff; /* Garis border */
+}
