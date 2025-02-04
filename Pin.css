@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    min-height: 100vh;
+}
+
+/* Header dan logo */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #007bff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Konten utama */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px; /* Memberikan ruang untuk header */
+}
+
+/* Judul */
+h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Kotak PIN */
+.pin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pin-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.pin-inputs input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Tampilkan teks dengan kotak biru */
+.show-text {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Teks di bawah kotak PIN */
+.pin-bottom-text {
+    margin-top: 20px; /* Memberikan jarak antara kotak PIN dan teks */
+    font-size: 14px;
+    color: #555;
+}
+
+.pin-bottom-text a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pin-bottom-text a:hover {
+    text-decoration: underline;
+}
+
+/* Opsi bantuan dan lupa PIN */
+.pin-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+}
+
+.pin-options a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.help {
+    color: gray;
+}
+
+.forgot-pin {
+    color: red;
+    font-weight: bold;
+}
